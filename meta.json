@@ -1,0 +1,37 @@
+{
+  "inputs": [{
+      "id": "userId",
+      "title":"User ID"
+  }],
+  "outputs": [{
+    "id": "username",
+    "title":"Username"
+  }, {
+    "id": "full_name",
+    "title":"Name"
+  }, {
+    "id": "profile_picture",
+    "title":"Picture"
+  }, {
+    "id": "bio",
+    "title":"Bio"
+  }, {
+    "id": "website",
+    "title":"Website"
+  }, {
+    "id": "media",
+    "title":"Total Images"
+  }, {
+    "id": "follows",
+    "title":"Follows"
+  }, {
+    "id": "followed_by",
+    "title":"Followers"
+  }],
+  "providers": [{
+    "name": "instagram",
+    "scopes": [ "basic","public_content" ]
+  }],
+  "icon": "instagram",
+  "title": "Instagram Get User Info"
+}
