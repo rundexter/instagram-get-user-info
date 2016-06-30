@@ -1,7 +1,10 @@
 {
   "inputs": [{
-      "id": "userId",
-      "title":"User ID"
+    "id": "userId",
+    "title":"User ID"
+  }, {
+    "id": "username",
+    "title":"Username"
   }],
   "outputs": [{
     "id": "username",
